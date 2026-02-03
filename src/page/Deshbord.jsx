@@ -12,8 +12,8 @@ const Deshbord = () => {
 
       <Overview ThisMonth="" ActiveVendors="" Collected="" />
 
-      <div className='Deshboard_Rap_ProjectSummary_and_OverallProgress'>
-        {/* <ProjectSummary Name="" ProjectManager="" Duedate="" Status="" Progress="" /> */}
+      <div className='Deshboard_Rap_ProjectSummary_and_OverallProgress flex flex-col sm:flex-row w-full justify-between gap-5 sm:gap-0'>
+        <ProjectSummary Name="" ProjectManager="" Duedate="" Status="" Progress="" />
         <OverallProgress TotalProjects="" Completed="" Delayed="" OnGoing="" />
       </div>
 
