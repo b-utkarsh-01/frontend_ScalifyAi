@@ -50,7 +50,7 @@ const TodayTask = () => {
   const [activeTab, setActiveTab] = useState("All");
 
   return (
-    <div className="bg-[#f7efe9] rounded-2xl p-6 w-[68%] ">
+    <div className="bg-[#f7efe9] rounded-2xl p-6 sm:w-[68%] ">
       {/* Header */}
       <h2 className="text-lg font-semibold mb-4">Today task</h2>
 
