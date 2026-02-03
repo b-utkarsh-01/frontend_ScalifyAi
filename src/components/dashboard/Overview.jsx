@@ -19,7 +19,7 @@ const Overview = () => {
           icon="ri-bar-chart-2-line" 
           iconBG="bg-[#d398e6]" 
           valueType="This Month" 
-          data="$53,00989" 
+          data="₹ 50,45,24,000" 
           percentage="10" 
           trend = 'down'
         />
@@ -28,7 +28,7 @@ const Overview = () => {
           icon="ri-shopping-bag-3-line" 
           iconBG="bg-[#E89271]" 
           valueType="Active Vendors" 
-          data="$53,00989" 
+          data="95/100" 
           percentage="10" 
           trend="up"
         />
@@ -37,7 +37,7 @@ const Overview = () => {
           icon="ri-time-line" 
           iconBG="bg-[#70A1E5]" 
           valueType="Collected" 
-          data="$53,00989" 
+          data="₹ 50,45,24,000" 
           percentage="10" 
           trend="up" 
         />
@@ -46,7 +46,7 @@ const Overview = () => {
           icon="ri-user-line" 
           iconBG="bg-[#F0C274]" 
           valueType="New Lead" 
-          data="$53,00989" 
+          data="₹ 50,45,24,000" 
           percentage="10" 
           trend="up" 
         />
