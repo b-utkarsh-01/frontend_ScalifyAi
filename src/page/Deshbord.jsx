@@ -17,7 +17,7 @@ const Deshbord = () => {
         <OverallProgress TotalProjects="" Completed="" Delayed="" OnGoing="" />
       </div>
 
-      <div className='Deshboard_TodayTask_and_ProjectsWorkload '>
+      <div className='Deshboard_TodayTask_and_ProjectsWorkload flex flex-col sm:flex-row w-full justify-between gap-5 sm:gap-0'>
         <TodayTask Status="" />
         <ProjectsWorkload />
       </div>
